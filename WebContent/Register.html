@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register form</title>
+
+	<style type="text/css">
+		#main-header{
+			text-align: center;
+			font-family: "Times New Roman", Times, serif;
+			background-color: black;
+			color: white;
+			padding: 10px;
+		}
+		#my-form{
+			text-align: center;;
+			background-color: darkcyan;
+			padding: 20px;
+		}
+		#submit-button{
+			background-color: green;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body bgcolor =blue>
+	<header id="main-header">
+		<h4>Registration Form  </h4><br>
+	</header>
+	<a href="image/cput.jpg">
+		<img src="image/cput.jpg" alt="CPUT logo" width = "1350" height="200">
+	</a> 
+
+
+	<form id="my-form" action="Register" method="get">
+	
+	<h1> Registration: Good morning</h1>
+	<br><br>
+		<table>
+		<tr>
+			<td>Staff number</td>
+			<td><input type="text" name="staffNumber"></td>
+		</tr>
+			<tr>
+		  <td>First name:</td>
+		  <td><input type="text" name="name"></td>
+		</tr>
+		
+		<tr>
+			<td>Surname:</td>
+			<td><input type="text" name="surname"></td>
+		</tr>
+		
+		<tr>
+			<td>Phone number:</td>
+			<td><input type="text" name="phoneNo"></td>
+		</tr>
+		
+		
+		<tr>
+			<td>Email</td>
+			<td><input type="text" name="email"></td>
+		</tr>
+		
+		
+			<tr>
+				<td><input id="submit-button" type="submit" value="signin"/></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
